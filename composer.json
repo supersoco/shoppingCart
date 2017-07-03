@@ -1,0 +1,19 @@
+{
+    "name": "ShopingBag",
+    "description": "Implementation of basic Shopping bag with calculation of final price",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Javier Pérez",
+            "email": "javierperezlozano@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Checkout\\": "src/"
+        }
+    }
+}
